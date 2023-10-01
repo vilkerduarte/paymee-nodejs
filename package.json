@@ -1,0 +1,28 @@
+{
+  "name": "paymee",
+  "version": "1.0.0",
+  "description": "API de comunicação da Paymee Brasil. Comunidade aberta (Não oficial)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vilkerduarte/paymee-nodejs.git"
+  },
+  "keywords": [
+    "paymee",
+    "paymee-api",
+    "paymee_brasil",
+    "paymee-brasil",
+    "paymee-community",
+    "paymee-rest"
+  ],
+  "author": "Vilker Duarte",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/vilkerduarte/paymee-nodejs/issues"
+  },
+  "homepage": "https://github.com/vilkerduarte/paymee-nodejs#readme"
+}
