@@ -1,6 +1,6 @@
 {
   "name": "paymee",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "API de comunicação da Paymee Brasil. Comunidade aberta (Não oficial)",
   "main": "index.js",
   "type": "module",

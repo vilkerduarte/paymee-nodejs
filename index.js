@@ -1,4 +1,4 @@
-import { Phone,Payout,Beneficiary,Document,Bank,Shopper,Payment } from "./lib/models";
+import { Phone,Payout,Beneficiary,Document,Bank,Shopper,Payment } from "./lib/models.js";
 import Paymee from "./paymee-lib.js";
 
 let apikey = process?.env?.PAYMEE_KEY || null;

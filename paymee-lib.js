@@ -37,7 +37,7 @@ export default class Paymee {
                 data = await data.json();
                 return data;
             } catch (e) {
-                console.error(e);
+                console.error("Error: 2556",e);
                 return null;
             }
         }
@@ -45,7 +45,7 @@ export default class Paymee {
         if (response.ok) {
             result.status = 200;
         } else {
-            console.error(response);
+            console.error("Error: 6433",response);
             result.status = response.status;
         }
         result.result = await resolveJSON(response);
@@ -63,17 +63,6 @@ export default class Paymee {
         }
         if (data) {
             data = clearNullValues(data);
-            // for (let x in data) {
-            //     let value = data[x]
-            //     if(value === null){
-            //         delete data[x];
-            //     }else if(typeof value === 'object'){
-            //         if(!Object.keys(value).length){
-            //             delete data[x];
-            //         }
-            //     }
-            // }
-            console.log("========================================",data,"===========================================")
             options.body = JSON.stringify(new Object(data));
         }
         if (additional_headers && typeof additional_headers === 'object') {
@@ -85,7 +74,7 @@ export default class Paymee {
             let response = await fetch(url, options);
             return await this._getResult(response);
         } catch (error) {
-            console.error(error);
+            console.error("Erro: 5138",error);
             return null;
         }
     }
